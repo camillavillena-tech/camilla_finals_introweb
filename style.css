@@ -1,0 +1,50 @@
+/* Reset CSS */
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+/* Body CSS */
+html, body { height: 100%; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start;   
+
+}
+.outside-container {
+  width: 930px;
+  background: linear-gradient(to bottom right, #FFCBE0 , #F595BC );
+  border-radius: 18px;
+  padding: 22px;
+}
+.inside-container {
+  background: #FFE6F0;
+  border-radius: 12px;
+  padding: 35px;
+  position: relative;
+}
+
+/* Footer */
+footer {
+  margin-top: 18px;
+  color: #6B4F3B;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socials {
+  display: flex;
+  gap: 12px;
+}
+
+.socials img {
+  width: 20px;
+  height: 20px;
+}
