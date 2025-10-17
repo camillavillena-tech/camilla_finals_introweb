@@ -29,6 +29,48 @@ body {
   position: relative;
 }
 
+/*CSS FOR BRAND, LOGO, NAVIGATION WEBPAGE*/
+/* Header */ 
+header { 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  margin-bottom: 28px; 
+} 
+.brand { 
+  display: flex; 
+  align-items: center; 
+  gap: 12px; 
+  color: #d24b84; 
+} 
+.logo { 
+  width: 50px; 
+  height: 50px; 
+} 
+nav { 
+  display: flex; 
+  gap: 22px; 
+  align-items: center; 
+  font-size: 12px; 
+} 
+nav a { 
+  text-decoration: none; 
+  color: #333333; 
+} 
+.contact-button { 
+  background: #d34791; 
+  color: #fff; 
+  padding: 10px 14px; 
+  border-radius: 8px; 
+  font-weight: bold; 
+} 
+
+.contact-button:hover { 
+  background: #b53a7d; 
+  box-shadow: 0 8px 12px rgba(0, 8, 12, 0.3); 
+} 
+
+
 /* Footer */
 footer {
   margin-top: 18px;
